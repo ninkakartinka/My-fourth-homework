@@ -1,0 +1,14 @@
+body{
+	/*text-align: center;*/
+}
+li{
+	display: inline;
+	list-style-type: none;
+	border: 1px solid grey;
+	border-radius: 3px;
+	padding: 1% 5% 1% 5%;
+	background: lightgrey;
+	margin-left: 0px;
+	float: left;
+	color: grey;
+}
