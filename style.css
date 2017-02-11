@@ -1,3 +1,7 @@
+*{
+	font-family: fantasy;
+}
+
 body{
 	margin-left: 5%;
 	margin-right: 5%;
@@ -17,9 +21,11 @@ li{
 	color: grey;
 	text-align: center;
 }
-
 li:hover{
-	background: darkgrey;
+	text-decoration: none;
+	background: gray;
+}
+a:visited{
 	text-decoration: none;
 }
 
@@ -33,6 +39,7 @@ a{
 	text-align: center;
 	margin: 20%;
 	margin-top: 8%;
+	margin-bottom: 3%;
 }
 
 button{
@@ -41,6 +48,19 @@ button{
 	background: green;
 	border-radius: 10px;
 	color: white;
+	font-size: 17px;
+}
+.more{
+	background: blue;
+	color: white;
+	font-size: 17px;
+	margin-top: 3%;
+}
+
+.buttom{
+	color: gray;
+	font-size: 11px;
+
 }
 
 .name{
@@ -51,3 +71,9 @@ button{
 .title1{
 	font-size: 45px;
 }
+
+.content{
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-bottom: 10%;
+	}
